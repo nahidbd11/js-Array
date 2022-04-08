@@ -15,4 +15,4 @@ let a = Array.from({ length: 6 }, (v, i) => {
   console.log(v, i);
   return v;
 });
-console.log(a);
+console.log('the array from object with length property is=', a);
