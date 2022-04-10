@@ -16,3 +16,18 @@ let a = Array.from({ length: 6 }, (v, i) => {
   return v;
 });
 console.log('the array from object with length property is=', a);
+
+let data = [
+  {
+    name: 'nahid',
+    age: 24,
+  },
+  {
+    name: 'jahid',
+    age: 23,
+  },
+];
+
+let newArr = [];
+newArr.push(...data);
+console.log(newArr);
