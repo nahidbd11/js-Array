@@ -28,6 +28,8 @@ let data = [
   },
 ];
 
+//spread operator to push an array of object
+
 let newArr = [];
 newArr.push(...data);
 console.log(newArr);
