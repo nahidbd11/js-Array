@@ -33,3 +33,13 @@ let data = [
 let newArr = [];
 newArr.push(...data);
 console.log(newArr);
+
+let obj1 = { name: 'Nahid', age: 28 };
+
+let arrTobConcat = [1, 2, 3];
+let [x, y, ...z] = [1, 2, 3, 4, 5, 6, 7];
+console.log(z);
+let arr_add = [4, [5, 6]];
+let newArray = arrTobConcat.concat(obj1, arr_add);
+
+console.log(newArray);
